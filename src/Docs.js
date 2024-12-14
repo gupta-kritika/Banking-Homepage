@@ -5,17 +5,17 @@ const Docs = ({ documentsRead, handleDocumentClick }) => {
     terms: {
       title: "Terms and Conditions",
       description: "Understand the terms and conditions of our banking services, including account usage policies, fees, and customer responsibilities.",
-      path: `${process.env.PUBLIC_URL}./pdf/terms.pdf`
+      path: `${process.env.PUBLIC_URL}/terms.pdf`
     },
     privacy: {
       title: "Privacy Policy",
       description: "Learn how we protect your personal information and ensure your privacy. This document outlines our data collection, use, and sharing practices.",
-      path: `${process.env.PUBLIC_URL}./pdf/privacy.pdf`
+      path: `${process.env.PUBLIC_URL}/privacy.pdf`
     },
     fee: {
       title: "Fee Schedule",
       description: "Review the fees associated with our various banking services. This document provides detailed information on charges for transactions, account maintenance, and other services.",
-      path: `${process.env.PUBLIC_URL}./pdf/fee.pdf`
+      path: `${process.env.PUBLIC_URL}/fee.pdf`
     }
   };
 
